@@ -4,6 +4,10 @@ import SearchText from "@components/SearchText";
 const test = [1, 2, 3, 4, 5];
 const Home = () => (
   <>
+    <div className="hidden md:flex justify-end absolute top-5 right-1">
+      <button className="btn mr-2  border-rose-500 hover:bg-amber-400 hover:text-white ">Login</button>
+      <button className="btn hover:bg-amber-400 hover:text-white">Register</button>
+    </div>
     <div>
       <section className="w-full flex-center flex-col">
         <h1 className="head_text text-center">
@@ -26,12 +30,12 @@ const Home = () => (
     </div>
     <div className="flex flex-wrap justify-around mt-8 gap-y-[30px]">
       {" "}
-      <PromptCard/>
-      <PromptCard/>
-      <PromptCard/>
-      <PromptCard/>
-      <PromptCard/>
-      <PromptCard/>
+      <PromptCard />
+      <PromptCard />
+      <PromptCard />
+      <PromptCard />
+      <PromptCard />
+      <PromptCard />
     </div>
   </>
 );

@@ -75,14 +75,10 @@ export default function RecipeReviewCard() {
         alt="Paella dish"
       /> */}
       <CardContent>
-        <Typography paragraph>MARKETING</Typography>
+        <Typography paragraph className="uppercase">marketing</Typography>
         <Typography variant="body2" color="text.secondary">
           Viết email bán hàng (Sales Emails)
         </Typography>
-        {/* <Typography variant="body2" color="text.secondary">
-          <br></br>
-          Viết email bán hàng (Sales Emails)
-        </Typography> */}
         <br></br>
         <div className="flex flex-wrap gap-1">
           {/* <TagPromptCard tagName = "email marketing"></TagPromptCard> */}
@@ -106,7 +102,7 @@ export default function RecipeReviewCard() {
           <IconButton aria-label="visitor">
             <RemoveRedEyeIcon />
           </IconButton>
-          <span></span>
+          <span>500</span>
         </div>
         <ExpandMore
           expand={expanded}

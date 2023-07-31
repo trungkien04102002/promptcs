@@ -81,10 +81,33 @@
   @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
 }
 
+.blue_gradient {
+  @apply bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
+}
+
 .head_text {
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl;
 }
 
 .desc {
   @apply mt-5 text-lg text-gray-600 sm:text-xl max-w-2xl;
+}
+
+.btn {
+  @apply border-2 border-[#eab308] px-4 py-2 rounded uppercase text-xl font-semibold cursor-pointer;
+}
+.prompt_btn {
+  @apply border-2 border-[#eab308] rounded uppercase text-xl font-semibold cursor-pointer;
+}
+.glassmorphism {
+  @apply rounded-xl border border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-5;
+}
+
+/* Form Component */
+.form_textarea {
+  @apply w-full flex rounded-lg h-[200px] mt-2 p-3 text-sm text-gray-500 outline-0;
+}
+
+.form_input {
+  @apply w-full flex rounded-lg mt-2 p-3 text-sm text-gray-500 outline-0;
 }
